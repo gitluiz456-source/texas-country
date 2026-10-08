@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>M.A. TEXAS COUNTRY — Prévia da loja virtual</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+<style>
+:root{--bk:#0c0907;--br:#2a1a10;--lt:#6b4226;--cr:#b9803f;--bg:#e6d5b8;--of:#f6efe2;--tc:#b5543a;--gd:#d4af6a;--serif:'Playfair Display',Georgia,serif;--sans:'Oswald','Arial Narrow',Arial,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:#050403;color:var(--of);font-family:var(--sans);letter-spacing:.04em}
+.bar{position:sticky;top:0;z-index:50;display:flex;gap:8px;justify-content:center;align-items:center;padding:8px;background:#000;border-bottom:1px solid #333;font-size:12px;color:#aaa;flex-wrap:wrap}
+.bar button{background:none;border:1px solid #555;color:var(--of);padding:6px 14px;font:inherit;cursor:pointer;border-radius:2px}
+.bar button.on{background:var(--gd);color:#000;border-color:var(--gd)}
+.stage{container-type:inline-size;margin:0 auto;width:100%;max-width:100%;transition:max-width .4s;background:var(--bk);overflow-x:hidden;position:relative}
+.stage.tab{max-width:820px}.stage.mob{max-width:390px}
+.ph{position:relative;overflow:hidden;background:linear-gradient(180deg,#3a2314,#120b07)}
+.ph::after{content:attr(data-l);position:absolute;left:10px;bottom:8px;font-size:9px;letter-spacing:.2em;color:#ffffff66}
+.ph>.in{position:absolute;inset:-8%;transition:transform .8s}
+.rv{opacity:0;transform:translateY(40px);transition:opacity 1s,transform 1s}.rv.v{opacity:1;transform:none}
+header{position:sticky;top:37px;z-index:40;display:flex;align-items:center;justify-content:space-between;padding:14px 5cqw;background:#0c0907ee;backdrop-filter:blur(8px);border-bottom:1px solid #d4af6a33}
+.logo{display:flex;align-items:center;gap:10px;font-weight:600;font-size:18px;line-height:1}
+.logo small{display:block;font-size:9px;letter-spacing:.35em;color:var(--gd);font-weight:400;margin-top:3px}
+nav{display:flex;gap:20px;font-size:13px;text-transform:uppercase}nav a{color:var(--bg);text-decoration:none}nav a:hover{color:var(--gd)}
+.ic{display:flex;gap:14px;font-size:16px}
+@container (max-width:900px){nav{display:none}}
+.hero{height:92vh;min-height:520px;display:flex;align-items:flex-end;position:relative}
+.hero .ph{position:absolute;inset:0;background:linear-gradient(180deg,#f0a35a 0%,#c4572f 30%,#4a2417 58%,#140b07 100%)}
+.sun{position:absolute;left:62%;top:26%;width:18cqw;height:18cqw;border-radius:50%;background:radial-gradient(#ffe0a0,#f4a14d 55%,transparent 70%)}
+.hill{position:absolute;bottom:0;left:-5%;width:110%;height:38%;background:linear-gradient(#2b160c,#0c0907);clip-path:polygon(0 40%,20% 15%,45% 35%,70% 8%,100% 30%,100% 100%,0 100%)}
+.road{position:absolute;bottom:0;left:30%;width:40%;height:34%;background:linear-gradient(#6b4226,#1a0f08);clip-path:polygon(44% 0,56% 0,100% 100%,0 100%)}
+.hero .txt{position:relative;padding:0 5cqw 10vh;max-width:760px}
+.eb{color:var(--gd);font-size:13px;letter-spacing:.5em}
+h1{font-family:var(--serif);font-size:clamp(34px,9cqw,92px);line-height:1.02;font-weight:600;margin:12px 0 26px}
+h1 i{color:var(--gd)}
+.btn{display:inline-block;background:var(--gd);color:#1a0f08;padding:15px 34px;font:600 14px var(--sans);letter-spacing:.2em;text-transform:uppercase;border:0;cursor:pointer;text-decoration:none}
+.btn:hover{background:var(--of)}
+.btn.o{background:none;border:1px solid var(--gd);color:var(--gd)}
+section{padding:90px 5cqw}
+h2{font-family:var(--serif);font-size:clamp(26px,5.5cqw,52px);font-weight:600;margin:8px 0 36px;line-height:1.1}
+.cats{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.cat{grid-column:span 2;height:44cqw;max-height:480px;cursor:pointer}
+.cat:nth-child(n+4){grid-column:span 3;height:30cqw;max-height:340px}
+.cat:hover .in{transform:scale(1.1) rotate(.6deg)}
+.cat b{position:absolute;left:18px;bottom:30px;font:600 24px var(--sans);letter-spacing:.2em;z-index:2}
+.cat em{position:absolute;left:18px;bottom:12px;font-size:11px;color:var(--gd);z-index:2;font-style:normal;letter-spacing:.25em}
+.cat .ph{height:100%}.cat .ph::before{content:"";position:absolute;inset:0;background:linear-gradient(transparent 40%,#000c);z-index:1}
+@container (max-width:700px){.cat,.cat:nth-child(n+4){grid-column:span 6;height:58cqw}.cat:nth-child(n+4){grid-column:span 3;height:50cqw}.cat b{font-size:15px}}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+@container (max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+.pr .ph{aspect-ratio:3/4}
+.pr h3{font:500 14px var(--sans);margin:14px 0 4px;letter-spacing:.12em;text-transform:uppercase}
+.pr .p{font:600 20px var(--sans);color:var(--gd)}.pr .p small{display:block;font-size:11px;color:var(--bg);font-weight:400;opacity:.7}
+.pr .btn{width:100%;margin-top:10px;padding:11px;font-size:12px;text-align:center}
+.pr:hover .in{transform:scale(1.07)}
+.tag{position:absolute;top:10px;left:10px;background:var(--tc);font-size:10px;padding:3px 9px;letter-spacing:.2em;z-index:2}
+.cine{height:170vh;position:relative;padding:0}
+.cine .sticky{position:sticky;top:0;height:100vh;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center}
+.cine .ph{position:absolute;inset:0;background:radial-gradient(circle at 50% 55%,#8a4a22,#2a150a 55%,#050302)}
+.cine .in{transition:none;display:flex;align-items:flex-end;justify-content:center}
+.cine h2{position:relative;z-index:2;font-size:clamp(28px,7cqw,76px);max-width:900px;padding:0 5cqw;text-shadow:0 4px 30px #000}
+.fav{background:linear-gradient(var(--bk),var(--br) 50%,var(--bk))}
+.car{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:20px;scrollbar-width:thin;scrollbar-color:var(--cr) transparent}
+.car .pr{flex:0 0 min(300px,70cqw);scroll-snap-align:start}
+.story{display:grid;grid-template-columns:1fr 1fr;gap:5cqw;align-items:center}
+@container (max-width:800px){.story{grid-template-columns:1fr}}
+.story p{line-height:1.9;font-size:16px;color:var(--bg);font-weight:300;letter-spacing:.02em;margin-bottom:18px}
+.mos{display:grid;grid-template-columns:1fr 1fr;gap:12px}.mos .ph{height:32cqw;max-height:340px}.mos .ph:first-child{grid-row:span 2;height:auto;min-height:60cqw}
+.stats{display:flex;gap:30px;margin-top:26px}.stats b{font:600 34px var(--serif);color:var(--gd);display:block}.stats span{font-size:11px;letter-spacing:.2em}
+.cta{text-align:center;background:linear-gradient(135deg,var(--tc),#6e2a18);padding:110px 5cqw;position:relative;overflow:hidden}
+.cta h2{font-size:clamp(30px,7cqw,72px)}.cta .btn{background:var(--bk);color:var(--gd)}
+.ig{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}.ig .ph{aspect-ratio:1}
+@container (max-width:800px){.ig{grid-template-columns:repeat(3,1fr)}}
+footer{background:#050302;padding:70px 5cqw 30px;border-top:1px solid #d4af6a44}
+.fg{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:34px}
+@container (max-width:800px){.fg{grid-template-columns:1fr 1fr}}
+footer h4{font-size:12px;letter-spacing:.3em;color:var(--gd);margin-bottom:14px}
+footer p,footer a{display:block;font-size:13px;color:var(--bg);opacity:.8;line-height:2;text-decoration:none;font-weight:300}
+.pay{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.pay span{border:1px solid #555;padding:3px 8px;font-size:10px;letter-spacing:.1em}
+.cp{margin-top:40px;border-top:1px solid #222;padding-top:18px;font-size:11px;opacity:.5;text-align:center}
+.wa{position:sticky;bottom:16px;float:right;margin-right:16px;width:54px;height:54px;border-radius:50%;background:#25a85a;display:grid;place-items:center;z-index:30;font-size:24px;box-shadow:0 6px 20px #000a}
+.note{background:#1a1109;color:var(--gd);font-size:11px;text-align:center;padding:8px;letter-spacing:.15em}
+</style></head><body>
+<div class="bar"><span>PRÉVIA DA PROPOSTA · VISUALIZAR EM:</span>
+<button class="on" data-w="">Desktop</button><button data-w="tab">Tablet</button><button data-w="mob">Smartphone</button></div>
+<div class="stage" id="st">
+<div class="note">Maquete ilustrativa — logo e fotografias são representações temporárias, a serem substituídas pelos materiais oficiais da loja</div>
+<header>
+<div class="logo"><svg width="34" height="34" viewBox="0 0 40 40"><polygon points="20,2 25,15 39,15 28,24 32,38 20,29 8,38 12,24 1,15 15,15" fill="none" stroke="#d4af6a" stroke-width="2"/></svg><div>M.A. TEXAS COUNTRY<small>PATOS DE MINAS · MG</small></div></div>
+<nav><a href="#">Início</a><a href="#cat">Loja</a><a href="#cat">Botas</a><a href="#cat">Chapéus</a><a href="#cat">Roupas</a><a href="#cat">Acessórios</a><a href="#">Masculino</a><a href="#">Feminino</a><a href="#" style="color:var(--tc)">Ofertas</a></nav>
+<div class="ic"><span>⌕</span><span>☺</span><span>♡</span><span>🛍</span></div>
+</header>
+
+<div class="hero"><div class="ph" data-l="FOTO DE CAMPANHA · CASAL, CAVALO E PÔR DO SOL" data-par="0.35"><div class="in"><div class="sun"></div><div class="hill"></div><div class="road"></div></div></div>
+<div class="txt rv"><div class="eb">M.A. TEXAS COUNTRY</div><h1>Estilo que<br>carrega <i>história.</i></h1><a class="btn" href="#fav">Comprar agora</a></div></div>
+
+<section id="cat"><div class="eb rv">EXPLORE</div><h2 class="rv">Categorias</h2>
+<div class="cats">
+<div class="cat rv"><div class="ph" data-l="FOTO · BOTAS" style="background:linear-gradient(160deg,#6b4226,#150c06)"><div class="in"></div></div><b>BOTAS</b><em>VER COLEÇÃO →</em></div>
+<div class="cat rv"><div class="ph" data-l="FOTO · CHAPÉUS" style="background:linear-gradient(160deg,#b9803f,#2a1a10)"><div class="in"></div></div><b>CHAPÉUS</b><em>VER COLEÇÃO →</em></div>
+<div class="cat rv"><div class="ph" data-l="FOTO · ROUPAS" style="background:linear-gradient(160deg,#2c3e55,#0a0d12)"><div class="in"></div></div><b>ROUPAS</b><em>VER COLEÇÃO →</em></div>
+<div class="cat rv"><div class="ph" data-l="FOTO · FIVELAS" style="background:linear-gradient(160deg,#8a7a55,#1a150c)"><div class="in"></div></div><b>FIVELAS</b><em>VER COLEÇÃO →</em></div>
+<div class="cat rv"><div class="ph" data-l="FOTO · ACESSÓRIOS" style="background:linear-gradient(160deg,#b5543a,#2a100a)"><div class="in"></div></div><b>ACESSÓRIOS</b><em>VER COLEÇÃO →</em></div>
+</div></section>
+
+<section style="background:var(--of);color:var(--bk)"><div class="eb rv" style="color:var(--tc)">LANÇAMENTOS</div><h2 class="rv">Nova coleção</h2>
+<div class="grid" id="g1"></div></section>
+
+<div class="cine" id="cine"><div class="sticky"><div class="ph" data-l="FOTO · MODELO COM A COLEÇÃO"><div class="in" id="zoom"><svg viewBox="0 0 200 300" width="46%" style="opacity:.55;margin-bottom:-4%"><ellipse cx="100" cy="52" rx="62" ry="10" fill="#050302"/><path d="M60 50q4-34 40-34t40 34z" fill="#050302"/><circle cx="100" cy="82" r="22" fill="#050302"/><path d="M40 300q0-170 60-180t60 180z" fill="#050302"/></svg></div></div>
+<h2>Não é apenas roupa.<br><span style="color:var(--gd);font-style:italic">É estilo de vida.</span></h2></div></div>
+
+<section class="fav" id="fav"><div class="eb rv">MAIS VENDIDOS</div><h2 class="rv">Os favoritos da M.A. Texas Country</h2>
+<div class="car" id="g2"></div></section>
+
+<section><div class="story"><div><div class="eb rv">NOSSA HISTÓRIA</div><h2 class="rv">A essência country de Patos de Minas</h2>
+<p class="rv">Nascemos do amor pelo campo, pelo rodeio e pela música que embala o interior de Minas. Cada bota, chapéu e fivela é escolhido a dedo, com o mesmo cuidado de quem conhece o cliente pelo nome.</p>
+<p class="rv">Aqui, tradição e atitude andam juntas: peças autênticas, atendimento próximo e um estilo que faz você chegar em qualquer festa de peão com personalidade.</p>
+<div class="stats rv"><div><b>100%</b><span>COUNTRY</span></div><div><b>MG</b><span>ORGULHO</span></div><div><b>+</b><span>HISTÓRIAS</span></div></div></div>
+<div class="mos rv"><div class="ph" data-l="FOTO · RODEIO" style="background:linear-gradient(#c4572f,#1a0c06)"><div class="in"></div></div><div class="ph" data-l="FOTO · CAMPO" style="background:linear-gradient(#8a6a35,#1a1208)"><div class="in"></div></div><div class="ph" data-l="FOTO · MODA WESTERN" style="background:linear-gradient(#4a2a18,#0c0705)"><div class="in"></div></div></div></div></section>
+
+<div class="cta"><h2 class="rv">Seu estilo começa aqui.</h2><a class="btn rv" href="#">Ver todos os produtos</a></div>
+
+<section><div class="eb rv">@MA.TEXASCOUNTRY</div><h2 class="rv">Siga a gente no Instagram</h2><div class="ig" id="ig"></div>
+<p style="text-align:center;margin-top:26px"><a class="btn o" href="#">Seguir no Instagram</a></p></section>
+
+<footer><div class="fg">
+<div><div class="logo" style="margin-bottom:14px"><svg width="30" height="30" viewBox="0 0 40 40"><polygon points="20,2 25,15 39,15 28,24 32,38 20,29 8,38 12,24 1,15 15,15" fill="none" stroke="#d4af6a" stroke-width="2"/></svg><div>M.A. TEXAS COUNTRY</div></div><p>Moda country com autenticidade e atendimento de verdade, em Patos de Minas e agora em todo o Brasil.</p>
+<div class="pay"><span>PIX</span><span>VISA</span><span>MASTER</span><span>ELO</span><span>BOLETO</span></div><p style="font-size:11px;margin-top:10px">🔒 Compra 100% segura · SSL</p></div>
+<div><h4>ATENDIMENTO</h4><p>WhatsApp: (00) 00000-0000</p><p>Seg–Sáb · 9h às 18h</p><p>Patos de Minas – MG</p><p>Instagram · Facebook</p></div>
+<div><h4>INSTITUCIONAL</h4><a href="#">Sobre nós</a><a href="#">Política de troca</a><a href="#">Política de privacidade</a><a href="#">Termos de uso</a></div>
+<div><h4>CATEGORIAS</h4><a href="#">Botas</a><a href="#">Chapéus</a><a href="#">Roupas</a><a href="#">Fivelas</a><a href="#">Acessórios</a></div>
+</div><div class="cp">© M.A. TEXAS COUNTRY · Prévia de proposta — dados de contato e endereço ilustrativos</div></footer>
+<div class="wa">✆</div>
+</div>
+<script>
+const P=[["Bota Couro Caramelo","389,90","#8a5a2a","LANÇAMENTO"],["Chapéu Feltro Premium","259,90","#3a2a1c",""],["Cinto + Fivela Ouro Velho","179,90","#6b4226",""],["Camisa Xadrez Western","199,90","#8a3a28","NOVO"],["Jaqueta Jeans Rústica","329,90","#2c3e55",""],["Calça Jeans Reta","249,90","#1f2c40",""],["Bota Texana Preta","429,90","#1a1410","LANÇAMENTO"],["Lenço & Acessórios","79,90","#b5543a",""]];
+function card(p){const v=(parseFloat(p[1].replace(',','.'))/10).toFixed(2).replace('.',',');return `<div class="pr rv"><div class="ph" data-l="FOTO DO PRODUTO" style="background:linear-gradient(160deg,${p[2]},#0c0705)">${p[3]?`<span class="tag">${p[3]}</span>`:''}<div class="in"></div></div><h3>${p[0]}</h3><div class="p">R$ ${p[1]}<small>ou 10x de R$ ${v} sem juros</small></div><button class="btn">Comprar</button></div>`}
+g1.innerHTML=P.slice(0,4).map(card).join('');
+g2.innerHTML=[P[6],P[0],P[1],P[3],P[4],P[2]].map(card).join('');
+const igc=["#8a5a2a","#b5543a","#2c3e55","#3a2a1c","#b9803f","#6b4226"];
+ig.innerHTML=igc.map(c=>`<div class="ph rv" data-l="@ma.texascountry" style="background:linear-gradient(160deg,${c},#0c0705)"><div class="in"></div></div>`).join('');
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('v');io.unobserve(x.target)}}),{threshold:.12});
+function obs(){document.querySelectorAll('.rv:not(.v)').forEach((el,i)=>{el.style.transitionDelay=(el.parentElement.classList.contains('grid')||el.parentElement.classList.contains('ig')||el.parentElement.classList.contains('car')?(i%4)*.12:0)+'s';io.observe(el)})}
+obs();
+const hp=document.querySelector('[data-par]'),cine=document.getElementById('cine');
+function sc(){const y=scrollY;hp.firstElementChild.style.transform=`translateY(${y*.25}px) scale(${1+y*.0003})`;
+const r=cine.getBoundingClientRect(),t=Math.min(1,Math.max(0,-r.top/(r.height-innerHeight)));zoom.style.transform=`scale(${1+t*1.1})`;zoom.style.opacity=1-t*.25}
+addEventListener('scroll',sc,{passive:true});sc();
+document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.bar button').forEach(x=>x.classList.remove('on'));b.classList.add('on');st.className='stage '+b.dataset.w;sc()});
+</script></body></html>
